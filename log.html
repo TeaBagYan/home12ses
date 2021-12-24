@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Второе</title>
+	<link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="HandheldFriendly" content="true"/>
+</head>
+<body>
+    <header>
+      <a href="index.html"> MAIN</a>
+      <div class="he_av">
+        <h1 id= 'active_name'></h1>
+        <a href="log.html" id="test" >Войти</a>
+        <a href="reg.html" id="test2" >Регистрация</a>
+        <input type="button" onclick="rem()" id="test3" value="Выход">
+      </div>
+    </header>
+    
+
+      <div class="log">
+
+         <h1> Вход в аккаунт</h1>
+
+      <div class="log_bl1">
+         <p>Введите логин</p>
+         <input type="text" id="uname">
+         <p>Введите пароль</p>
+         <input type="password" id="upass">
+         <input type="button" onclick="login()" value="Войти">
+         <span id= 'error'></span>
+      </div>
+      <div class="log_bl2">
+         <p>Не зарегистрированы?</p>
+         <a href="reg.html">Зарегистрироваться</a>
+      </div>
+   </div>
+
+
+
+
+    <footer>
+      <div class="f_bl">
+        <div class="f_bl1">
+          <img src="img/f_ic1.png">
+          <img src="img/f_ic2.png">
+          <img src="img/f_ic3.png">
+          <img src="img/f_ic4.png">
+        </div>
+        <p>Copyright ©2020 All rights reserved </p>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>

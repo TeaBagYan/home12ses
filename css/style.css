@@ -1,0 +1,748 @@
+@font-face {
+  font-family: 'RalewayBold';
+  src:url('../fonts/Raleway-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RubikRegural';
+  src:url('../fonts/Rubik-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RubikBold';
+  src:url('../fonts/Rubik-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+a{
+  text-decoration: none;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+p{
+ font-family: RubikRegural;
+font-style: normal;
+font-weight: normal;
+color: #21243D;
+}
+
+h1{
+font-family: RubikBold;
+color: #21243D;
+}
+
+header{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header a{
+  font-family: RubikBold;
+  font-size: 25px;
+color: #21243D;
+}
+
+.he_av{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.he_av input{
+color: white;
+border-radius: 5px;
+border: none;
+width: 120px;
+height: 40px;
+background-color: #21243D;
+}
+.g_pg1{
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.g_pg1_bl{
+  width: 75%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.g_pg1_bl1{
+  width: 55%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.g_pg1_bl1 p{
+font-size: 30px;
+}
+.g_pg1_bl1 h1{
+font-size: 40px;
+}
+.g_pg1_bl2{
+  width: 27%;
+  height: 55%;
+  border-radius: 100%;
+  box-shadow: -20px 30px 0 #EDF7FA;
+}
+.g_pg1_bl2 img{
+  width: 100%;
+  height: 100%;
+}
+.g_pg2{
+  background: #EDF7FA;
+  width: 100%;
+  height: 1800px;
+  display: flex;
+  justify-content: center;
+}
+.g_pg2_bl{
+  width: 75%;
+height: 100%;
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+}
+.g_pg2_bl0{
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.g_pg2_bl1{
+  width: 100%;
+  height: 16%;
+  display: flex;
+  justify-content: space-between;
+}
+.g_pg2_bl1i{
+  width: 28%;
+  height: 100%;
+  border-radius: 6px;
+}
+.g_pg2_bl1i img{
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+.g_pg2_bl1t{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.g_pg2_bl1t1{
+  width: 110px;
+  height: 25px;
+  border-radius: 20px;
+  display: flex;  
+  justify-content: center;
+  background: #142850;
+  align-items: center;
+}
+.g_pg2_bl1t1 p {
+  color: white;
+}
+
+
+.wpg1{
+  width: 100%;
+  height: 3500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.wpg1_bl{
+  width: 75%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.wpg1_bl h1{
+font-size: 40px;
+}
+.wpg1_bl p {
+font-size: 30px;
+}
+.wpg1_bl img{
+  width: 70%;
+  height: 85%;
+}
+.wpg1_dt{
+    width: 170px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;  
+  justify-content: center;
+  background: #142850;
+}
+.wpg1_dt p{
+  color: white;
+}
+.wi_t{
+  width: 400px;
+height: 60px;
+background: #EDF7FA;
+border-radius: 5px;
+border: none;
+  color: #21243D;
+  align-items: center;
+  font-size: 30px; 
+}
+.wi_b{
+  width: 150px;
+height: 60px;
+background: #21243D;
+border-radius: 0px 5px 5px 0px;
+border: none;
+color: white;
+ font-family: RubikRegural;
+ font-size: 15px;
+ letter-spacing: 2px;
+ color: white;
+}
+
+.w_c{
+  width: 1000px;
+  height: 60px;
+ display: flex;
+ justify-content: space-between;
+}
+
+
+.wpg2{
+  width: 100%;
+  height: 1800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.wpg2_bl{
+  width: 75%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.wpg2_bl h1{
+font-size: 40px;
+}
+.wpg2_bl p {
+font-size: 30px;
+}
+.wpg2_bl img{
+  width: 70%;
+  height: 70%;
+}
+
+
+.wpg3{
+  width: 100%;
+  height: 2800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.wpg3_bl{
+  width: 75%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.wpg3_bl h1{
+font-size: 40px;
+}
+.wpg3_bl p {
+font-size: 30px;
+}
+.wpg3_bl img{
+  width: 70%;
+  height: 23%;
+}
+
+
+.wpg4{
+  width: 100%;
+  height: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.wpg4_bl{
+  width: 75%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.wpg4_bl h1{
+font-size: 40px;
+}
+.wpg4_bl p {
+font-size: 30px;
+}
+.wpg4_bl img{
+  width: 80%;
+  height: 65%;
+}
+
+
+
+.wpg5{
+  width: 100%;
+  height: 2800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.wpg5_bl{
+  width: 75%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.wpg5_bl h1{
+font-size: 40px;
+}
+.wpg5_bl p {
+font-size: 30px;
+}
+.wpg5_bl img{
+  width: 70%;
+  height: 20%;
+}
+
+.log{
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.log_bl1{
+  width: 40%;
+  height: 40%;
+  background-color: #EDF7FA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 25px;
+  border-radius: 20px;
+}
+.log_bl1 input{
+  width: 250px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #21243D;
+  font-size: 20px;
+  color: white;
+}
+.log_bl1 span{
+  font-family: RubikRegural;
+  font-size: 19px;
+  color: red;
+}
+.log_bl2{
+  width: 50%;
+  height: 20%;
+  background-color: #EDF7FA;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+    border-radius: 20px;
+}
+.log_bl2 a{
+   font-family: RubikRegural;
+  color: #21243D;
+}
+
+
+
+
+.reg{
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.reg_bl1{
+  width: 40%;
+  height: 60%;
+  background-color: #EDF7FA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 25px;
+  border-radius: 20px;
+}
+.reg_bl1 span{
+  font-family: RubikRegural;
+  font-size: 19px;
+  color: red;
+}
+.reg_bl1 input{
+  width: 250px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #21243D;
+  font-size: 20px;
+  color: white;
+}
+.reg_bl2{
+  width: 30%;
+  height: 20%;
+  background-color: #EDF7FA;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+    border-radius: 20px;
+}
+.reg_bl2 a{
+   font-family: RubikRegural;
+  color: #21243D;
+}
+
+
+
+
+footer{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.f_bl{
+  width: 25%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.f_bl1{
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.f_bl1 img{
+  width: 13%;
+  height: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 360px){
+
+header a{
+  font-size: 15px;
+}
+.g_pg1{
+  height: 550px;
+}
+.he_av{
+  width: 50%;
+  height: 100%;
+}
+.he_av input{
+width: 80px;
+height: 30px;
+}
+.he_av h1{
+  font-size: 15px;
+}
+
+.g_pg1_bl{
+  width: 80%;
+  height: 80%;
+  flex-direction: column-reverse;
+}
+.g_pg1_bl1{
+  width: 100%;
+  height: 50%;
+}
+.g_pg1_bl1 p{
+font-size: 15px;
+}
+.g_pg1_bl1 h1{
+font-size: 20px;
+}
+.g_pg1_bl2{
+  width: 65%;
+  height: 45%;
+  box-shadow: -10px 20px 0 #edf7fa;
+}
+.g_pg2{
+  width: 100%;
+  height: 2000px;
+  display: flex;
+  justify-content: center;
+}
+.g_pg2_bl{
+  width: 80%;
+height: 100%;
+}
+.g_pg2_bl0{
+  width: 100%;
+  height: 90%;
+
+}
+.g_pg2_bl1{
+  width: 100%;
+  height: 16%;
+  flex-direction: column;
+  align-items: center;
+}
+.g_pg2_bl1i{
+  width: 100%;
+  height: 49%;
+  border-radius: 6px;
+}
+.g_pg2_bl1i img{
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+.g_pg2_bl1t{
+  width: 100%;
+  height: 50%;
+}
+.g_pg2_bl1t p{
+  font-size: 10px;
+}
+.g_pg2_bl1t h1{
+  font-size: 20px;
+}
+.g_pg2_bl1t1{
+  width: 70px;
+}
+
+
+
+.wpg1{
+  width: 100%;
+  height: 2000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.wpg1_bl{
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.wpg1_bl h1{
+font-size: 25px;
+}
+.wpg1_bl p {
+font-size: 15px;
+}
+.wpg1_bl img{
+  width: 100%;
+  height: 85%;
+}
+.wpg1_dt{
+    width: 110px;
+  height: 20px;
+  align-items: center;
+}
+
+.wi_t{
+  width: 250px;
+height: 40px;
+font-size: 15px;
+}
+.wi_b{
+  width: 150px;
+height: 40px;
+}
+
+.w_c{
+  width: 300px;
+  height: 150px;
+ flex-direction: column;
+}
+.w_c h1{
+font-size: 25px;
+}
+.comments h1{
+  font-size: 20px;
+}
+
+.wpg2{
+  width: 100%;
+  height: 1100px;
+}
+.wpg2_bl{
+  width: 80%;
+  height: 75%;
+}
+.wpg2_bl h1{
+font-size: 25px;
+}
+.wpg2_bl p {
+font-size: 15px;
+}
+.wpg2_bl img{
+  width: 100%;
+  height: 70%;
+}
+
+
+.wpg3{
+  width: 100%;
+  height: 1300px;
+
+}
+.wpg3_bl{
+  width: 80%;
+  height: 80%;
+
+}
+.wpg3_bl h1{
+font-size: 25px;
+}
+.wpg3_bl p {
+font-size: 15px;
+}
+.wpg3_bl img{
+  width: 100%;
+  height: 20%;
+}
+
+
+.wpg4{
+  width: 100%;
+  height: 700px;
+}
+.wpg4_bl{
+  width: 80%;
+  height: 70%;
+}
+.wpg4_bl h1{
+font-size: 25px;
+}
+.wpg4_bl p {
+font-size: 15px;
+}
+.wpg4_bl img{
+  width: 100%;
+  height: 45%;
+}
+
+
+
+.wpg5{
+  width: 100%;
+  height: 1500px;
+}
+.wpg5_bl{
+  width: 80%;
+  height: 80%;
+}
+.wpg5_bl h1{
+font-size: 25px;
+}
+.wpg5_bl p {
+font-size: 15px;
+}
+.wpg5_bl img{
+  width: 100%;
+  height: 20%;
+}
+
+.log{
+  width: 100%;
+  height: 600px;
+}
+.log_bl1{
+  width: 80%;
+  height: 50%;
+}
+
+.log_bl2{
+  width: 60%;
+  height: 15%;
+  font-size: 18px;
+  flex-direction: column;
+}
+
+
+
+
+.reg{
+  width: 100%;
+  height: 700px;
+
+}
+.reg_bl1{
+  width: 80%;
+  height: 70%;
+}
+
+.reg_bl2{
+  width: 60%;
+  height: 12%;
+  font-size: 18px;
+  flex-direction: column;
+}
+
+
+
+
+
+footer{
+  width: 100%;
+  height: 150px;
+}
+.f_bl{
+  width: 80%;
+  height: 60%;
+}
+.f_bl1{
+  width: 100%;
+  height: 60%;
+}
+
+}
